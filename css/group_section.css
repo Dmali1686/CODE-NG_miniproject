@@ -1,0 +1,143 @@
+.section-content{
+    padding: 50px 0;
+    color: #282828;
+}
+.container{
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.section-content .row h2{
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #282828;
+
+}
+.section-content .row span{
+    margin: 0;
+    padding: 0;
+
+    p{
+        margin-bottom: 10px;
+        position: relative;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+}
+/* .section-content .row img{
+    margin: 0 50px;
+    padding: 0 40px;
+} */
+
+h4 span {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+section.bg-light {
+  background-color: #e6f5ff !important; /* Match light blue background */
+}
+
+.row::after , row::before{
+    content: "";
+    display: table;
+    
+}
+
+.media{
+  border: 1px solid #EAEAEA;
+  border-radius: 10px;
+  padding: 30px 20px 30px;
+  display: flex;
+}
+.whyHealthPolicy h4{
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.section-content .more,p{
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: block;
+}
+
+.morecontent span{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: none;
+}
+
+.media-body::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 5px;
+  height: 100%;
+  background-color: #007bff; /* Match the blue color */
+}
+
+.section-content .media img{
+    margin: 0 20px;
+    padding: 0;
+    align-self: start;
+    
+}
+
+
+.section-content.features{
+  background-color: #FFF9F6;
+}
+
+.common-insurance-blocks .pad-block1 .features-card{
+  display: flex;
+  flex-direction: column;
+
+}
+.common-insurance-blocks .pad-block1 figure{
+  align-self: flex-start;
+  img{
+    margin: 0;
+    padding: 0;
+  }
+}
+.features .col-4{
+  padding: 0 15px 30px 15px;
+}
+
+.freatures-card h4{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.cover-under em{
+  font-size: 45px;
+  font-weight: 700;
+  color: #F26624;
+  font-style:normal;
+  padding-right: 10px;
+}
+.bg-bluegray.cover-under{
+  background-color: #E1F4FD;
+}
+.media1{
+  border-radius: 10px;
+  padding: 30px 20px 30px;
+  display: flex;
+}
+.cover-under h3{
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Info Card</title>
+  <style>
+    body {
+      background-color: #f7f7f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+
+    .info-card {
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 20px 24px;
+      max-width: 400px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .info-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .info-icon {
+      width: 24px;
+      height: 24px;
+      fill: #1e88e5;
+    }
+
+    .info-card h3 {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .info-card p {
+      margin: 0;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="info-card">
+    <div class="info-header">
+      <!-- Sample SVG icon -->
+      <svg class="info-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M12 2a10 10 0 1 0 10 10A10.01142 10.01142 0 0 0 12 2zm1 15h-2v-2h2zm0-4h-2V7h2z" />
+      </svg>
+      <h3>Small businesses</h3>
+    </div>
+    <p>
+      Group health insurance can offer multiple benefits for small businesses with
+      approximately 20 to 50 employees. These companies often have limited resources.
+      They may not have the financial fle...
+    </p>
+  </div>
+</body>
+</html>

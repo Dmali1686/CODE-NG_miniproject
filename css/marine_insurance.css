@@ -1,0 +1,21 @@
+.container .common h3::before{
+    content: "1"; /* or some icon or text */
+    color: orange;
+    margin-right: 8px;
+}
+.container .common1 h3::before{
+    content: "2"; /* or some icon or text */
+    color: orange;
+    margin-right: 8px;
+}
+.container .common2 h3::before{
+    content: "3"; /* or some icon or text */
+    color: orange;
+    margin-right: 8px;
+}
+li::before {
+  content: "➤"; /* or some icon or text */
+  color: blue;
+  margin-right: 8px;
+}
+
