@@ -141,3 +141,32 @@ section.bg-light {
   font-weight: 700;
   padding-bottom: 10px;
 }
+.bg-lightblue{
+  background-color: #00305B;
+  
+}
+.whyicicl h2,li {
+  color: #fff;
+}
+li::before {
+  content: "➤"; /* or some icon or text */
+  color: orangered;
+  margin-right:0;
+  padding-right: 5px;
+}
+
+.claiming-list .number-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px; /* Optional: adds space between number and text */
+}
+.claiming-list .number-container .number {
+  font-weight: bold;
+  font-size: 20px;
+  color: #EC6625;
+  min-width: 32px; /* Optional: fixes width for alignment */
+  text-align: center;
+}
+.arrow .arrow-list{
+  color: #282828;
+}

@@ -15,7 +15,7 @@
 }
 li::before {
   content: "➤"; /* or some icon or text */
-  color: blue;
+  color: orangered;
   margin-right: 8px;
 }
 
