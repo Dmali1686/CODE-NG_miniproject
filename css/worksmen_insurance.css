@@ -1,0 +1,159 @@
+.mainWork {
+  background-color: #00305a;
+  padding: 50px 30px;
+}
+.mainWork .backbtn a {
+  color: #f26624 !important;
+  font: 500 17px "Muli", sans-serif;
+}
+
+.mainWork .work-heading {
+  font: 500 35px "Muli", sans-serif;
+  color: #ffff;
+  margin-top: 40px;
+}
+.mainWork .formDiv {
+  background-color: #fff;
+  width: 470px;
+  max-width: 100%;
+  margin-left: auto;
+  border: 1px solid #cbcdce;
+  box-shadow: 3px 4px 23px 0px #0000000f;
+  padding: 24px 30px 40px;
+  border-radius: 10px;
+  .formHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 29px;
+    h4 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 22.59px;
+      color: #282828;
+    }
+    .steps {
+      width: 74px;
+      height: 28px;
+      padding: 2px;
+      background-color: #e1f4fd;
+      border-radius: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1;
+      color: #000000;
+    }
+  }
+}
+.input-field {
+  padding-bottom: 15px;
+
+  input {
+    padding: 0 17px;
+    height: 50px;
+  }
+  .contibtn {
+    width: 100%;
+    background-color: #ec6625 !important;
+    height: 50px;
+    border-radius: 5px !important;
+    color: #fff;
+    font: 700 16px "Muli", sans-serif;
+    letter-spacing: normal;
+  }
+  a {
+    color: #f26624;
+    font: 600 14px "Muli", sans-serif;
+    line-height: 17px;
+    text-decoration: underline !important;
+  }
+}
+.input-field .checkmark p::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+
+  border-color: #f26624;
+  background: #f26624 url(/image/tick_marine.png) no-repeat center center/8px !important;
+  border-radius: 50%;
+}
+
+.section-content {
+  .group-section {
+    width: 80%;
+    margin: 0px auto;
+  }
+  .cont {
+    span {
+      margin: 0;
+      padding: 0;
+      padding-bottom: 0px;
+      color: #282828;
+      font-size: 1.3rem;
+      font-weight: 300;
+    }
+  }
+}
+.worktable td{
+  text-align: left !important;
+}
+.policy-ins {
+ background-color: #FFF9F6;
+}
+.arrow-list li{
+  content: "";
+  color: #282828;
+  
+
+}
+.arrow-list li::before{
+   content: "";
+    display: inline-block;
+    width: 13px;
+    height: 9px;
+    margin-right: 8px;
+    background: url(/image/ui-arrow-ico.png) no-repeat center center/contain;
+    vertical-align: middle;
+}
+.sec2 img{
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.advanTag{
+  .whitecard{
+    background: #fff;
+  }
+}
+
+.howYou .row{
+  .sec3,h2{
+    color: #FFF9F6;
+  }
+}
+.green_tick{
+  padding-left: 0;
+}
+.green_tick li{
+  color: #FFF9F6 !important;
+  padding: 0;
+}
+.green_tick li::before{
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin-right: 8px;
+    background: url(/image/green-tick.png) no-repeat center center/contain;
+    vertical-align: middle;
+}

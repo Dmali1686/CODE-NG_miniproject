@@ -1,34 +1,34 @@
-.card-wrapper {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  justify-content: center;
+.gc-List {
+    position: relative;
+    background: #fcfcfc;
+    width: 100%;
+    max-height: 120px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    display: none;
+    box-shadow: 1px 2px 5px #ddd;
+    -webkit-box-shadow: 1px 2px 5px #ddd;
 }
-
-.one {
-  border: 1px solid #EAEAEA;
-  padding: 30px 20px;
-  border-radius: 10px;
-  display: flex;
-  gap: 8px;
-  max-width: 400px;
-  width: 100%;
-  box-sizing: border-box;
+.gc-Button:before{
+    content: "";
+    position: absolute;
+    top: 20%;
+    right: 2px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: #6c6c6c;
+    border-width: 0 1.5px 1.5px 0;
+    transform: rotateZ(45deg);
+    padding: 3px;
+    transition: all .3s ease-in;
 }
-
-.icon {
-  width: 30px;
-  height: 30px;
-  flex-shrink: 0;
-}
-
-.heading {
-  margin: 0;
-  font-weight: bold;
-  display: block;
-  font-size: 1.25rem;
-}
-
-.item {
-  flex: 1;
-}
+.gc-Button {
+    position: relative;
+    border-bottom: 1px solid #c7c1bf;
+    padding: 0 10rem 1.5rem 0 !important;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: #6c6c6c;
+  }
