@@ -1,21 +1,94 @@
-.container .common h3::before{
-    content: "1"; /* or some icon or text */
-    color: orange;
-    margin-right: 8px;
+.container .common h3::before {
+  content: "1"; /* or some icon or text */
+  color: orange;
+  margin-right: 8px;
 }
-.container .common1 h3::before{
-    content: "2"; /* or some icon or text */
-    color: orange;
-    margin-right: 8px;
+.container .common1 h3::before {
+  content: "2"; /* or some icon or text */
+  color: orange;
+  margin-right: 8px;
 }
-.container .common2 h3::before{
-    content: "3"; /* or some icon or text */
-    color: orange;
-    margin-right: 8px;
+.container .common2 h3::before {
+  content: "3"; /* or some icon or text */
+  color: orange;
+  margin-right: 8px;
 }
-li::before {
+.marine_white li {
+  color: #fff;
+}
+.marine_white li::before {
   content: "➤"; /* or some icon or text */
   color: orangered;
   margin-right: 8px;
 }
 
+.marine_item1 {
+  h2,
+  p {
+    color: #fff !important;
+  }
+}
+.marine_black li {
+  color: #282828;
+}
+.marine .social {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(270deg, #ffffff 0%, #ffeee5 100%);
+  padding: 8px 0px 8px 13px;
+  border-radius: 30px;
+  img {
+    padding-right: 7px;
+  }
+  p {
+    margin-bottom: 0 !important;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20.08px;
+    color: #ec6625;
+  }
+}
+.banner-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.ban-list-item {
+  display: flex;
+  align-items: center;
+  background: #fff2eb;
+  border: 1px solid #ffd9c2;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 230px;
+}
+.pic-sec {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+.ban-list-item p {
+    color: #282828;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  margin-left: 4px;
+  margin-bottom: 0rem;
+}
+.banner-bg{
+  background: url(https://www.icicilombard.com/business-insurance/marine-insurance/assets/images/marine-bg-landing.svg) !important;
+  
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  background-size: 100%;
+  width: 100%;
+  padding-bottom: 100px;
+
+}
+.section-wrap{
+    padding: 6rem 0;
+   width: 100%;
+}

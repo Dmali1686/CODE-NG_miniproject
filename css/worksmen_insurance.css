@@ -12,7 +12,7 @@
   color: #ffff;
   margin-top: 40px;
 }
-.mainWork .formDiv {
+.formDiv {
   background-color: #fff;
   width: 470px;
   max-width: 100%;
@@ -53,7 +53,7 @@
   }
 }
 .input-field {
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 
   input {
     padding: 0 17px;
@@ -156,4 +156,54 @@
     margin-right: 8px;
     background: url(/image/green-tick.png) no-repeat center center/contain;
     vertical-align: middle;
+}
+
+.WorkServices {
+   ul{
+    padding: 0;
+   }
+  .footer-list li{
+    color: #282828;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  h5{
+ 
+   margin: 0 0 6px;
+  color: #282828;
+  font: 600 17px "Muli", sans-serif
+
+  }
+  .footer-list li a{
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+  color: #282828;
+  font: 400 13px "Muli", sans-serif;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+  }
+  .footer-list li a:hover{
+    color: #f26624;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+ 
+}
+ .footer-list2 li{
+    display: inline-block;
+    padding: 0 10px 0 10px ;
+  }
+
+  .footer-list2 li a svg{
+    fill: #000;  
+    transition: fill 0.3s ease; 
+}
+
+.footer-list2 li a:hover svg{
+    fill: #f26624;  
+    cursor: pointer;
+}
+footer p {
+  color: #201d1d;
+  font: 500 12px/21px "Muli", sans-serif;
 }
