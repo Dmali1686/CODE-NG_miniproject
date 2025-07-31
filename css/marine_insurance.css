@@ -31,7 +31,7 @@
 .marine_black li {
   color: #282828;
 }
-.marine .social {
+.social{
   display: flex;
   align-items: center;
   background: linear-gradient(270deg, #ffffff 0%, #ffeee5 100%);
@@ -91,4 +91,54 @@
 .section-wrap{
     padding: 6rem 0;
    width: 100%;
+}
+.advanTag .media-body{
+  h5{
+    font-weight: bold;
+  }
+}
+.marine_black li::before {
+  content: "➤"; /* or some icon or text */
+  color: orangered;
+  margin-right: 8px;
+}
+
+.faq-sec {
+  margin: 0 auto;
+  max-width: 910px;
+  width: 100%;
+  position: relative;
+  .heading2 {
+  margin: 0 0 5px 0;
+  font-size: 25px;
+  line-height: 45px;
+  font-weight: 700;
+  text-align: left;
+  color: #282828;
+}
+  .heading3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: left;
+  color: #282828;
+}
+.answer {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  display: block;
+}
+.question-block{
+  margin-bottom: 24px;
+}
+}
+.Blog{
+  font-size: 16px;
+  line-height: 2px;
+  font-weight: 700;
+  text-decoration: underline !important;
+  color: #ec6625;
+  display: block;
 }
